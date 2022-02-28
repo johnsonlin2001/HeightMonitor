@@ -1,0 +1,121 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color:white;
+    align-items: center;
+}
+
+
+.headerlist{
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    padding-right: 538px;
+}
+
+h3{
+    padding-left: 538px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    gap: 16px;
+    padding-bottom: 80px;
+}
+
+.signup{
+    background-color: #3882F6;
+    color: white;
+    padding:5px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 0px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.milestones{
+    display: flex;
+    list-style-type: none;
+    gap:8px;
+}
+
+.Description{
+    max-width: 200px;
+}
+
+.milestoneimg{
+    border-radius: 8px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.planquote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+    align-self: center;
+    margin-bottom: 0px;
+}
+
+.suntzu{
+    font-weight: bold;
+    font-size: medium;
+    align-self: center;
+    padding-left: 650px;
+    margin-top: 0px;
+
+}
+
+.bluebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    background-color: #3882F6;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 8px;
+}
+
+.signup{
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-color: white;
+}
+
+.action{
+    padding: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Overview{
+    max-width: 350px;
+}
