@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="header">
-        <h3>Height Monitor</h3>
+        <h3>LED Monitor</h3>
         <ul class="headerlist">
             <li>ECE 153B Project</li>
             
@@ -19,29 +19,31 @@
     <div class="main">
     <div>
         <h1>Project Overview</h1>
-        <p class="Overview">For our project, we would like to implement a height monitoring device that can take measurements on different objects. 
-            The user will press the start button and begin moving the monitor upwards until it reaches the desired height. 
-            The accelerometer will be used to detect when the monitor stops moving and the distance between the device and the ground 
-            will be obtained from the ultrasonic sensor.   </p>
+        <p class="Overview">For our project, we have implemented a LED monitor device which changes its brightness depending on measurements
+            of distance or temperature. The user will specify whether the device should take a measurement for distance or temperature and the
+        device will change its brightness according to the measurement. For higher temperatures and longer distances the brightness of the LED
+    will be brighter. For lower temperatures and smaller distances the brightness of the LED will be lower. </p>
     </div>
-    <img alt="Block Diagram of Project" src="blockdiagram.png" width=250px height=auto>
+    <img alt="Block Diagram of Project" src="blockdiagram.png" width=400px height=auto>
     </div>
     <div class="information">
         <h2>Weekly updates</h2>
         <ul class="milestones">
-            <li><img class="milestoneimg" src="" alt="event" width=200px height=auto><p class="Description">Week 1 updates: Came up with height monitor concept and turned in project proposal.</p></li>
-            <li><img class="milestoneimg" src="" alt="event" width=200px height=auto><p class="Description">Week 2 updates: Ordered ADXL343 accelerometer and OLED screen.</p></li>
-            <li><img class="milestoneimg" src="" alt="event" width=200px height=auto><p class="Description">Week 3 updates: All parts arrived. Soldered the accelorometer for more stable connections. Began working on SPI interfacing for ADXL343. Ran into issues around reading static and dynamic data.</p></li>
-            <li><img class="milestoneimg" src="" alt="event" width=200px height=auto><p class="Description">Week 4 updates</p></li>
+            <li><p>Week 1 updates: </p><p class="Description">Came up with project concept and turned in project proposal.</p></li>
+            <li><p>Week 2 updates: </p><p class="Description">Ordered ADXL343 accelerometer and OLED screen.</p></li>
+            <li><p>Week 3 updates: </p><p class="Description">All parts arrived. Soldered the accelorometer for more stable connections. Began working on SPI interfacing for ADXL343. Ran into issues around reading static and dynamic data.</p></li>
+            <li><p>Week 4 updates: </p><p class="Description">Decided to use the terminal rather than the accelorometer to trigger a measurement.</p></li>
+            <li><p>Week 5 updates: </p><p class="Description">Decided to change the brightness of the LED to correspond to different readings. Completed project implementation and demo video.</p></li>
         </ul>
     </div>
     <div class="quote">
-        <p class="planquote">Final Video will go here</p>
+        <h1>Demo Video</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PUth37kyMB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
     </div>
     <div class="action">
         <div class="bluebox">
-            <p>More info here</p>
+            <p>Project By Johnson Lin and Shuya Shou</p>
         </div>
     </div>
     <div class="footer">
